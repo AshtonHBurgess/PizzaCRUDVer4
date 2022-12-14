@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">CRUD PIZZA</string>
+    <string name="addbutton">add</string>
+    <string name="top1num">0</string>
+    <string name="top2num">0</string>
+    <string name="top3">0</string>
+    <string name="top3num">0</string>
+    <string name="sizenum">2</string>
+    <string name="order_size_text">1</string>
+    <string name="updateButton">Update</string>
+    <string name="size2">size2</string>
+    <string name="deletebutton">Delete</string>
+    <string name="delete_all">delete all/supprimer tout</string>
+    <string name="nopizza">No Pizzas</string>
+    <string name="lang">en</string>
+    <string name="Fr">Fr</string>
+    <string name="English">English</string>
+    <string name="French">French</string>
+    <string name="size">Size: S(1) M(2)  L(3) XL(4)</string>
+    <string name="top1Cheese">Extra Cheese: </string>
+    <string name="top2Pepperoini">Pepperoni:</string>
+    <string name="top3Bacon">Bacon:</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="cname">Customer Name…</string>
+    <string name="phone">Phone Number…</string>
+    <string name="address">Address…</string>
+    <string name="pname">Pizza Name…</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="order_phone_text">phone</string>
+    <string name="top4Pineapple">Pineapple:</string>
+    <string name="top5Sausage">Sausage:</string>
+    <string name="top6Olives">Olives:</string>
+    <string name="top6num">0</string>
+    <string name="top5num">0</string>
+    <string name="top4num">0</string>
+    <string name="maxTopping">Max Toppings</string>
+    <string name="topMax">Toppings (Max 3):</string>
+
+    <string-array name="english_list">
+        <item>ADD</item>
+        <item>UPDATE</item>
+        <item>DELETE</item>
+        <item>No Pizza\'s</item>
+        <item>Size: S(1) M(2)  L(3) XL(4)</item>
+        <item>Extra Cheese:</item>
+        <item>Pepperoni:</item>
+        <item>Bacon:</item>
+        <item>Customer Name…</item>
+        <item>Phone Number…</item>
+        <item>Address…</item>
+        <item>Pizza Name…</item>
+        <item>PineApple:</item>
+        <item>Sausage:</item>
+        <item>Olives:</item>
+        <item>Toppings (Max 3):</item>
+    </string-array>
+    <string-array name="french_list">
+        <item>AJOUTER</item>
+        <item>METTRE À JOUR</item>
+        <item>EFFACER</item>
+        <item>Pas de pizza</item>
+        <item>Taille: S(1) M(2) L(3) XL(4)</item>
+        <item>Fromage supplémentaire:</item>
+        <item>Pepperoni:</item>
+        <item>Lard:</item>
+        <item>Nom du client…</item>
+        <item>Numéro de téléphone…</item>
+        <item>Une robe…</item>
+        <item>Nom de la pizza…</item>
+        <item>Ananas:</item>
+        <item>Saucisson:</item>
+        <item>Olives:</item>
+        <item>Garnitures (Max 3):</item>
+    </string-array>
+
+
+
+
+</resources>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pizzapizza"
+    tools:context=".updatePizza">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/cname2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="customer name"
+                android:inputType="textPersonName"
+                android:textColor="#000"
+                android:textColorHint="#000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/phone2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="phone number"
+                android:inputType="textPersonName"
+                android:textColor="#000"
+                android:textColorHint="#000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/address2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="address"
+                android:inputType="textPersonName"
+                android:textColor="#000"
+                android:textColorHint="#000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/pname2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="pizza name"
+                android:inputType="textPersonName"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textColorLink="#000" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/size2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/size"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/sizeup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#6C881A"
+                android:text="@string/add" />
+
+            <TextView
+                android:id="@+id/sizenum2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sizenum"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/sizedown2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#D22F2F"
+                android:text="@string/sub" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/topMax2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/topMax"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/top12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top1Cheese"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/top1up2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#6C871A"
+                android:text="@string/add" />
+
+            <TextView
+                android:id="@+id/top1num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top1num"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/top1down2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#D22F2F"
+                android:text="@string/sub" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/top22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top2Pepperoini"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/top2up2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#6C871A"
+                android:text="@string/add" />
+
+            <TextView
+                android:id="@+id/top2num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top2num"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/top2down2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#D22F2F"
+                android:text="@string/sub" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/top32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top3Bacon"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/top3up2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#6C871A"
+                android:text="@string/add" />
+
+            <TextView
+                android:id="@+id/top3num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top3num"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/top3down2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#D22F2F"
+                android:text="@string/sub" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/top42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top4Pineapple"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/top4up2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#6C871A"
+                android:text="@string/add" />
+
+            <TextView
+                android:id="@+id/top4num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top3num"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/top4down2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#D22F2F"
+                android:text="@string/sub" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/top52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top5Sausage"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/top5up2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#6C871A"
+                android:text="@string/add" />
+
+            <TextView
+                android:id="@+id/top5num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top3num"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/top5down2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#D22F2F"
+                android:text="@string/sub" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/top62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top6Olives"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/top6up2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#6C871A"
+                android:text="@string/add" />
+
+            <TextView
+                android:id="@+id/top6num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top3num"
+                android:textColor="#000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/top6down2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#D22F2F"
+                android:text="@string/sub" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/updatebutton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="#3F51B5"
+        android:text="@string/updateButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.501" />
+
+    <Button
+        android:id="@+id/deletebutton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:backgroundTint="#EE5350"
+        android:text="@string/deletebutton"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.501" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

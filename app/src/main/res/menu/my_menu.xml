@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/English"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="never"
+        android:title="@string/english"
+        />
+    <item android:id="@+id/French"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="never"
+        android:title="@string/french"
+        />
+    <item android:id="@+id/delete_all"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="never"
+        android:title="@string/delete_all"
+        />
+
+</menu>
